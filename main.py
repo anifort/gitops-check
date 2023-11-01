@@ -10,3 +10,8 @@ async def root():
 @app.get("/about-us")
 async def root():
     return {"message": "About us: We are a company that sells products"}
+
+
+@app.get("/contact")
+async def root():
+    return {"message": "contact"}
